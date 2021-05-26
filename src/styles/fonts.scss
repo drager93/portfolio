@@ -1,0 +1,111 @@
+@import "./variables.scss";
+
+.nanum-my {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.nanum-sq {
+  font-family: "NanumSquare", sans-serif !important;
+}
+
+.noto {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.font {
+  &.__regular {
+    font-weight: 300;
+  }
+
+  &.__normal {
+    font-weight: 400;
+  }
+
+  &.__bold {
+    font-weight: 700;
+  }
+
+  &.__extraBold {
+    font-weight: 800;
+  }
+
+  &.__12 {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  &.__15 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  &.__16 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  &.__18 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  &.__24 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  &.__26 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  &.__30 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  &.__32 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  &.__36 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  &.__40 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  &.__54 {
+    font-size: 54px;
+    line-height: 54px;
+  }
+
+  &.__66 {
+    font-size: 66px;
+    line-height: 66px;
+  }
+
+  &.__white {
+    color: $white;
+  }
+
+  &.__white-three {
+    color: $white-three;
+  }
+
+  &.__greyish {
+    color: $greyish-brown;
+  }
+
+  &.__puce {
+    color: $puce;
+  }
+
+  &.__golden {
+    color: $golden;
+  }
+}

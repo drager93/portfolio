@@ -1,0 +1,69 @@
+.df,
+[df] {
+  display: flex;
+  // flex-wrap: wrap;
+  // flex: 1 1 auto;
+  @for $max from 1 through 8 {
+    &[row="#{$max}"] {
+      flex: $max;
+    }
+  }
+
+  &[f-dir="column"],
+  &[fdc],
+  &.fdc {
+    flex-direction: column;
+  }
+  &[f-dir="row"],
+  &[fdr],
+  &.fdr {
+    flex-direction: row;
+  }
+
+  &[f-jus="start"],
+  &[fjs],
+  &.fjs {
+    justify-content: flex-start;
+  }
+  &[f-jus="end"],
+  &[fje],
+  &.fje {
+    justify-content: flex-end;
+  }
+  &[f-jus="center"],
+  &[fjc],
+  &.fjc {
+    justify-content: center;
+  }
+  &[f-jus="between"],
+  &[fjb],
+  &.fjb {
+    justify-content: space-between;
+  }
+
+  &[f-items="start"],
+  &[fis],
+  &.fis {
+    align-items: flex-start;
+  }
+  &[f-items="end"],
+  &[fie],
+  &.fie {
+    align-items: flex-end;
+  }
+  &[f-items="center"],
+  &[fic],
+  &.fic {
+    align-items: center;
+  }
+  &[f-items="base"],
+  &[fib],
+  &.fib {
+    align-items: baseline;
+  }
+  &[f-items="stretch"],
+  &[fist],
+  &.fist {
+    align-items: stretch;
+  }
+}
